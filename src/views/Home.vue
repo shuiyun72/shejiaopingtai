@@ -148,11 +148,16 @@
       </div>
       <div class="link">
         <div class="f_l_p1">
-          <el-button type="info" round size="mini">
+          <el-button round size="mini" class="info_btn active">
             友情链接
             <i class="el-icon-arrow-down"></i>
+            <i class="el-icon-arrow-right"></i>
           </el-button>
-          <el-input placeholder="关键词" prefix-icon="el-icon-search" v-model="input2" size="mini"></el-input>
+          <el-button  round size="mini" class="info_btn">
+            关键词
+            <i class="el-icon-arrow-down"></i>
+            <i class="el-icon-arrow-right"></i>
+          </el-button>
         </div>
         <div class="f_l_p2">
           <div class="text" v-for="t in 13" :key="t+203">约会神器</div>
